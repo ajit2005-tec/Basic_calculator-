@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #b2bec3;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calculator {
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe4ea;
+    padding-bottom: 20px;
+
+
+
+}
+
+#display {
+    font-size: 40px;
+    text-align: right;
+
+
+    height: 150px;
+    width: 90%;
+    margin: 30px;
+    outline: none;
+    border-radius: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    /* Transparent white */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2),
+        0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+}
+
+
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+button {
+    font-size: 25px;
+    border-style: none;
+    height: 55px;
+    width: 55px;
+    margin: 5px 11px;
+    border-radius: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    /* Transparent white */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2),
+        0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn:hover {
+    transform: scale(1.01);
+    /* Button gets bigger */
+    background: rgba(255, 255, 255, 0.3);
+    /* Slightly brighter */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4),
+        0 5px 10px rgba(0, 0, 0, 0.2);
+}
