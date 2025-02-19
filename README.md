@@ -42,6 +42,9 @@ Basic_calculator/
 └── README.md    # Project documentation
 ```
 
+## Screenshot
+![Basic Calculator ](/Screenshot_2025-02-19-13-11-40-488_io.spck.jpg)
+
 ## Future Improvements
 - Add dark mode.
 - Implement scientific calculator functions.
